@@ -1,0 +1,81 @@
+body {
+    background: rgb(36,32,106);
+    background: radial-gradient(circle, rgba(36,32,106,1) 0%, rgba(27,76,168,1) 40%, rgba(69,177,252,1) 100%);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#home {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+#about {
+    background-color: #d2d2d2;
+}
+
+#projects {
+    background-color: #c2c2c2;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: #b2b2b2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
